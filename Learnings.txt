@@ -1,0 +1,32 @@
+Built Cloud + DevOps CI/CD Deployment Project
+
+I built a project where I automated the deployment of a containerized web application using modern cloud and DevOps tools.
+
+The goal was simple:
+Whenever code is pushed to GitHub, the application should automatically build, package, and deploy to a cloud server.
+
+How it works
+
+1. Developer pushes code to GitHub
+2. GitHub Actions triggers a CI/CD pipeline
+3. A Docker image of the app is built
+4. The image is pushed to DockerHub
+5. An AWS EC2 server pulls the latest image
+6. The app runs inside a Docker container
+
+This creates a fully automated deployment workflow.
+
+Tech Stack
+
+• Node.js
+• Docker
+• GitHub Actions (CI/CD)
+• DockerHub
+• AWS EC2
+
+📌 What I learned
+
+• Containerizing applications with Docker
+• Building CI/CD pipelines using GitHub Actions
+• Deploying applications on AWS EC2
+• Automating build and deployment workflows
